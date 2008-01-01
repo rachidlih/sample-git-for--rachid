@@ -11,10 +11,7 @@ public void setName(String name) {
     this.name = name;
 }
 
-@Override
-public String toString() {
-    return "User [name=" + name + "]";
-}
+
 
 public int getAge() {
     return age;
@@ -22,6 +19,11 @@ public int getAge() {
 
 public void setAge(int age) {
     this.age = age;
+}
+
+@Override
+public String toString() {
+    return "User [name=" + name + ", age=" + age + "]";
 }
 
 }
